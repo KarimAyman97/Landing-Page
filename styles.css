@@ -1,0 +1,217 @@
+/*body Style */
+body
+{
+    background: linear-gradient(
+    0deg,
+    #373B44 0%,
+    #4286f4 100%
+  );
+}
+
+
+/* nav bar style */
+nav
+{
+    font-family: 'Alfa Slab One', serif;
+    width:100% ;
+    background-color: rgba(0,0,0,0.2);
+    position: fixed;
+    top:0 ;
+    z-index: 5;
+}
+
+/* unordered list of nav bar style */
+nav ul
+{
+    float: right;
+    margin-right:80px ;
+}
+
+/* using media query to make the style more responsive */
+@media only screen and (max-width: 600px) {
+    nav ul
+    {
+        float: right;
+        margin-right:0 ;
+    }
+}
+
+
+/* style of navigation link */
+.navigation-link
+{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding:10px ;
+    margin:0.3em;
+    border:2px solid #000 ;
+    background-color: red;
+    border-radius: 20px;
+    transition: background-color 0.6s linear;
+
+    
+    
+}
+
+/* the page header  container style */
+.page-header-container
+{
+   min-height: 10vh;
+   margin-top: 4em;
+   background-color: red;
+   width:80%
+}
+
+@media only screen and (max-width: 600px) {
+   .page-header-container
+   {
+      min-height: 40vh;
+      margin-top: 20em;
+      background-color: red;
+      width:80%
+   }
+
+}
+
+/* the text of header style */
+.page-header
+{
+   margin:20px;
+   color: white;
+   font-family: 'Edu TAS Beginner', cursive;
+   font-size: 7em;
+   margin: 2em 4rem 1em;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+   .page-header
+   {
+      margin:20px;
+      color: white;
+      font-family: 'Edu TAS Beginner', cursive;
+      font-size: 60px;
+      margin: 2em 4rem 1em;
+   }
+}
+
+/* the view of each section style (container)*/
+.section-view
+{
+   margin: auto;
+   margin-top: 50px;
+   width:80% ;
+   background-color: rgba(0,0,0,0.2);
+   border-radius: 10px;
+   overflow : scroll;
+   height:400px;
+}
+
+/* the header of each section style */
+.section-header
+{
+   color: white;
+   text-decoration: underline solid yellow;
+   margin:30px;
+   font-size: xx-large;
+}
+/* the paragraph itself style */
+.paragraph-view
+{
+   color: white;
+   margin: 10px;
+   text-align: justify;
+   text-justify: inter-word;
+   line-height: 2em;
+   font-size: 2em;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .navigation-link
+    {
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin:0.3em;
+        border:2px solid #000 ;
+        border-radius: 20px;
+        transition: background-color 0.6s linear;
+    
+        
+        
+    }
+    
+}
+
+.navigation-link:hover
+{
+    background-color: #000;
+}
+
+/* style of each item text in the link items */
+
+.item-list
+{
+    display:inline-block ;
+    list-style: none;
+    margin:1em;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .item-list
+    {
+        display:inline-block ;
+        list-style: none;
+        margin: 15px;
+        
+    }
+}
+
+
+
+
+/* the style of each infocus section */
+ .inFocusSection
+ {
+     background-color: rgba(0,0,0,0.6);
+     margin: auto;
+     margin-top: 50px;
+     width:80% ;
+     border-radius: 10px;
+     overflow : scroll;
+     height:400px;
+ }
+ 
+ /* the style of each in focus links */
+ .inFocusLink
+ {
+     text-align: center;
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 20px;
+     padding:10px ;
+     margin:0.3em;
+     border-radius: 20px;
+     transition: background-color 0.6s linear;
+     background-color: black;
+ }
+
+
+ .ud_Footer {
+    background: red ;
+    padding: 1em;
+    color: #e7e7e7;
+    text-align: center;
+    margin-top: 20px;
+}
